@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#277FC5"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvResultNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="@string/nama"
+        android:textColor="#fff"/>
+
+    <ImageButton
+        android:id="@+id/ib_jenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jenis_penyakit_128" />
+
+    <TextView
+        android:id="@+id/tv_jenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Penyakit"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ib_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tips_sehat_128" />
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tips Sehat"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ib_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/keluar_128" />
+
+    <TextView
+        android:id="@+id/tv_keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ib_tentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tentang_icon_128" />
+    <TextView
+        android:id="@+id/tv_tentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
+

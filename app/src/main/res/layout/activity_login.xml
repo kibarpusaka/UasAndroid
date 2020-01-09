@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#277FC5"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="20sp"
+            android:text="LOGIN SIMKES"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_marginTop="100sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="#FFFFFF"
+            android:padding="8dp"
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFF"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#FFFFFF"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:text="LOG IN"
+            android:background="#0E81AD"
+            />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:fontFamily="cursive"
+            android:text="OR"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:background="#0E81AD"
+            android:text="REGISTER"
+            />
+    </LinearLayout>
+</RelativeLayout>
